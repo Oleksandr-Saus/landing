@@ -1,0 +1,49 @@
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%; 
+  height: 150px;
+  border-radius: 5%;
+  margin: 2px 0;
+}
+
+#about {
+  background-image:url('../../images/card-about.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.btn-full {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  color: white;
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+}
+
+#community {
+  background-image:url('../../images/card-community.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#support {
+  background-image:url('../../images/card.support.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}

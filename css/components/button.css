@@ -1,0 +1,32 @@
+
+.btn-download {
+  color: white; 
+  padding: 8px 16px; 
+  font-size: 16px; 
+  position: relative;
+  cursor: pointer; 
+  text-decoration: none; 
+  transition: 0.3s ease; 
+}
+
+.btn-download::after {
+  content: '';
+  position: absolute; 
+  width: 0;
+  height: 2px; 
+  bottom: -2px;
+  left: 50%; 
+  background-color: white; 
+  transition: 0.3s ease, left 0.3s ease; 
+}
+
+
+.btn-download:hover::after {
+  width: 100%; 
+  left: 0; 
+}
+
+.btn-download:hover {
+  color: white;
+}
+
